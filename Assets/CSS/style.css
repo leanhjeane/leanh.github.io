@@ -203,3 +203,13 @@ section {
     border-color: #986060 !important;
     color:#af7569;
 }
+@media screen add (max-width:767px){
+    section{
+        padding: 60px 20px;
+    }
+
+card{
+    margin-bottom: 200px;
+}
+    
+}
