@@ -1,0 +1,205 @@
+:root {
+    --bg1: #2d2a2d;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #af7569;
+    --white: rgb(156, 154, 154);
+    --p: rgb(161, 150, 150);
+}
+
+a {
+    text-decoration: none;
+}
+
+#about {
+    background-color: var(--bg1);
+}
+
+#about {
+    color: rgb(124, 68, 54);
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)),
+        url('https://img.freepik.com/free-photo/arrangement-summer-still-life-elements_23-2148968973.jpg?t=st=1712893407~exp=1712897007~hmac=7e9fc8a57d51d38d1989d24d198faaad21689faba4c15f5f9fffa06ba1090faa&w=1060');
+    background-size: cover;
+}
+
+.navbar{
+    background: linear-gradient(to bottom, hsla(0, 2%, 17%, 0.829), rgba(44, 42, 42, 0.884));
+
+}
+
+.navbar .nav-link{ 
+    color: #ffffff;
+}
+
+.navbar #navbarNav .nav-link.active{
+    color: var(--brand) !important; 
+}
+
+.navbar .nav-link:hover{
+    color: var(--brand) !important;
+}
+
+.navbar-brand img{
+    width: 50%; 
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#services {
+    background-color: var(--white);
+}
+
+.icon-box-img {
+    width: 40%;
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card:hover {
+    background-color: var(--bg1);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #b38080;
+}
+
+#cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6796.jpg?t=st=1712898060~exp=1712901660~hmac=821523ff486cee169aa585caa1bdb09138ef67c9dd2ff48af258e65b342dc73a&w=996);
+    min-height: 70vh;
+}
+
+#reviews {
+    background-color: #986060;
+}
+
+.testimonials {
+    padding: 30px;
+    background-color: var(--bg1);
+    border-radius: 1px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#reviews a {
+    text-decoration: none;
+    color: var(--brand);
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px; /* add margin bottom for spacing */
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #322020;
+    cursor: pointer;
+    transition: background-color 0.3, color 0.3;
+}
+
+.accordion-body {
+    border-left: 3px solid var (--brand);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.faq-answer p {
+    margin-bottom: 0;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bg1)
+}
+
+/* Hover effect for FAQ question */
+.accordion-button:hover {
+    background-color: var(--brand); /* change background color on hover */
+    color: var(bg1); /* change text coloron hover */
+}
+
+/* Adjust accordion icon */
+.accordion-button::after{
+    font-family: "Font Awesome 5 Free";
+    content: ""; /* Plus icon*/
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    content: ""; /* Minus icon */
+}
+
+/* Footer */
+#footer {
+    padding-top: 50px;
+    padding-buttom: 50px;
+    background-color: var(--bg1);
+}
+
+#footer ul.list-unstyled li a {
+    color: var(--brand)
+}
+
+#reviews h2, #services h2 {
+    color: var(--bg1);
+}
+
+.btn-outline-light {
+    border-color: #986060 !important;
+    color:#af7569;
+}
